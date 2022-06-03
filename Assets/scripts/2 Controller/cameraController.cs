@@ -5,26 +5,16 @@ using UnityEngine;
 ///
 public class cameraController : MonoBehaviour
 {
-    public PlayerInput pi;
-    public GameObject playerHandle;
-    public GameObject cameraHandle;
-    public float tempEulerX;
+    public GameObject Player;
+    public float mouseX, mouseY;
+    public float mouseSensitivity;
 
-    // 所有的get都应该在Awake阶段
-    void Awake()
+    private void Update()
     {
-        cameraHandle = transform.parent.gameObject;
-        playerHandle = cameraHandle.transform.parent.gameObject;
-        pi = playerHandle.GetComponent<PlayerInput>();
-        tempEulerX = 20.0f;
-    }
+        mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
+        mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
-    // Update is called once per frame
-    void Update()
-    {
-        playerHandle.transform.Rotate(Vector3.up,pi.Jright * 100.0f * Time.deltaTime);
-        tempEulerX -= pi.Jup * -80.0f * Time.deltaTime;
-        tempEulerX = Mathf.Clamp(tempEulerX, -40, 30);
-        cameraHandle.transform.localEulerAngles = new Vector3(tempEulerX, 0, 0);
+        Player.transform.Rotate(Vector3.up * mouseX);
+        transform.localRotation = Quaternion.Euler(-mouseY, 0, 0);
     }
 }
