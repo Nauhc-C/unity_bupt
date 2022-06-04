@@ -425,7 +425,7 @@ Transform:
   - {fileID: 29456658}
   - {fileID: 2067224637}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &295484455
 CharacterController:
@@ -605,12 +605,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604079451}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.22, z: -2.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1355894137}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &804160668
 GameObject:
@@ -715,13 +715,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1355894137}
-  - component: {fileID: 1355894136}
   - component: {fileID: 1355894135}
   - component: {fileID: 1355894139}
   - component: {fileID: 1355894138}
   - component: {fileID: 1355894140}
   m_Layer: 0
-  m_Name: Player
+  m_Name: NPC
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -734,7 +733,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355894134}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63c12f0e1e6498e419d17d91d06ef90c, type: 3}
   m_Name: 
@@ -745,46 +744,6 @@ MonoBehaviour:
   speed: 2
   runspeed: 2
   jumphigh: 4
---- !u!114 &1355894136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1355894134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43da31c3768a4694c97eb5fd0aefc9ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  KeyUp: w
-  Keydown: s
-  KeyLeft: a
-  KeyRight: d
-  Keyrun: left shift
-  run: 0
-  Keyjump: space
-  jump: 0
-  space: 0
-  Keyreact: f
-  react: 0
-  KeyJUp: up
-  KeyJDown: down
-  KeyJRight: right
-  KeyJLeft: left
-  KeyESC: escape
-  ESC: 0
-  Dup: 0
-  Dright: 0
-  Jup: 0
-  Jright: 0
-  Dmag: 0
-  Dvec: {x: 0, y: 0, z: 0}
-  targetDup: 0
-  targetDright: 0
-  velocityDup: 0
-  velocityDright: 0
-  inputEnabled: 1
 --- !u!4 &1355894137
 Transform:
   m_ObjectHideFlags: 0
@@ -797,6 +756,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 422723478}
+  - {fileID: 604079454}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -837,7 +797,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355894134}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89de862f6c4a1c94f8394de9fb0d7bd5, type: 3}
   m_Name: 
