@@ -9,8 +9,8 @@ public class DialogSystem : MonoBehaviour
     [Header("UI组件")]
     //定义文本和图像
     public Text textLabel;
-    public Image faceImage;
-    public float 字符速度;
+    //public Image faceImage;
+    public float 字符速度=0.1f;
 
     [Header("文本文件")]
     //定义
@@ -76,11 +76,11 @@ public class DialogSystem : MonoBehaviour
         {
             case "A":
                 print("执行了");
-                faceImage.sprite = face01;
+                //faceImage.sprite = face01;
                 index++;
                 break;
             case "B":
-                faceImage.sprite = face02;
+                //faceImage.sprite = face02;
                 index++;
                 break;
         }
