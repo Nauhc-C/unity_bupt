@@ -85,6 +85,10 @@ public class DialogSystem : MonoBehaviour
                 break;
         }
         print("后面的执行了");
+        if(textList[index] == "新同学欸,那帮我搬完之后,我带你逛一逛学校吧")
+        {
+            print("surprise");
+        }
         for (int i = 0; i < textList[index].Length; i++)
         {
             textLabel.text += textList[index][i];

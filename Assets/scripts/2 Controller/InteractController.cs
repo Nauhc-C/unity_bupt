@@ -9,9 +9,9 @@ public class InteractController : MonoBehaviour
     //定义各种文本的gameobject
     public GameObject text2; //NPC
     public GameObject text4; //门
-    public GameObject mapimage;//地图
+    //public GameObject mapimage;//地图
     public GameObject talk;  //说话
-    public PlayerInput pi; //获取输入
+    //public PlayerInput pi; //获取输入
     private Animator anim;  //获取动画
     //以下是标志符号
     public bool NPC = false;
@@ -24,7 +24,7 @@ public class InteractController : MonoBehaviour
     void Awake()
     {
         //在唤醒阶段获取各个文本并隐藏
-        pi = GetComponent<PlayerInput>();
+        //pi = GetComponent<PlayerInput>();
         text2.SetActive(false);
         text4.SetActive(false);
     }
@@ -33,19 +33,19 @@ public class InteractController : MonoBehaviour
     void Update()
     {
         //不要先看这里的代码，首先在enter和exit力运行后才在这里运行
-        if (pi.react && meetTheDistance && NPC)
+        if (Input.GetKeyDown(KeyCode.F) && meetTheDistance && NPC)
         {
-            anim.SetTrigger("touch");
+            //anim.SetTrigger("touch");
             text2.SetActive(false);
             talk.SetActive(true);
-            pi.react = false;
+            //pi.react = false;
             print("摸摸头");
         }
-        else if (pi.react && meetTheDistance && door)
+        else if (Input.GetKeyDown(KeyCode.F) && meetTheDistance && door)
         {
             print("加载大世界");
-            mapimage.SetActive(true);
-            pi.react = false;
+            //mapimage.SetActive(true);
+            //pi.react = false;
         }
     }
     //这个other就是和你发生交互的物体，只能在Ontrigger里面来使用

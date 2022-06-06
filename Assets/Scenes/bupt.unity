@@ -342,9 +342,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 907373745}
     m_Modifications:
+    - target: {fileID: 142100, guid: 4369bfb570c67dd4796c048ed31d6858, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010578610706, guid: 4369bfb570c67dd4796c048ed31d6858, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012946723646, guid: 4369bfb570c67dd4796c048ed31d6858, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1000013527354224, guid: 4369bfb570c67dd4796c048ed31d6858, type: 3}
       propertyPath: m_Name
       value: FAE_Tree_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013527354224, guid: 4369bfb570c67dd4796c048ed31d6858, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013633076900, guid: 4369bfb570c67dd4796c048ed31d6858, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000011236007008, guid: 4369bfb570c67dd4796c048ed31d6858, type: 3}
       propertyPath: m_LocalPosition.z
@@ -408,7 +428,7 @@ GameObject:
   - component: {fileID: 254359532}
   - component: {fileID: 254359531}
   - component: {fileID: 254359530}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -624,11 +644,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295484450}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.817688, y: 2.2236385, z: 1.9582825}
-  m_Center: {x: 0.08747864, y: 0.11181927, z: 0.3839569}
+  m_Size: {x: 0.95895386, y: 2.2236385, z: 1.8285675}
+  m_Center: {x: 0.08024597, y: 0.11181927, z: 0.4488144}
 --- !u!114 &295484457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -636,16 +656,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295484450}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89de862f6c4a1c94f8394de9fb0d7bd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   text2: {fileID: 1442005403}
   text4: {fileID: 1548283695}
-  mapimage: {fileID: 0}
-  talk: {fileID: 0}
-  pi: {fileID: 0}
+  talk: {fileID: 449492981}
   NPC: 0
   door: 0
   cooker: 0
@@ -678,6 +696,30 @@ PrefabInstance:
     - target: {fileID: 126966, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
       propertyPath: m_Name
       value: Car 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 126966, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 157202, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 168356, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 172316, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 181728, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 185230, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 420152, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
       propertyPath: m_RootOrder
@@ -865,7 +907,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &449492982
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1010,7 +1052,7 @@ PrefabInstance:
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d,
         type: 3}
@@ -1020,7 +1062,7 @@ PrefabInstance:
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.88
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d,
         type: 3}
@@ -1156,6 +1198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CarboardBox_1(Physics)
       objectReference: {fileID: 0}
+    - target: {fileID: 1192641458597302, guid: acbdb13218a23b644b2a15c0a6fbd3f7, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4333507836982010, guid: acbdb13218a23b644b2a15c0a6fbd3f7, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -1209,9 +1255,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 907373745}
     m_Modifications:
+    - target: {fileID: 1000010328881802, guid: 06b059ea2b033674198473f8573ffd67, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010976156036, guid: 06b059ea2b033674198473f8573ffd67, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012167557386, guid: 06b059ea2b033674198473f8573ffd67, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013350105422, guid: 06b059ea2b033674198473f8573ffd67, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1000013451787930, guid: 06b059ea2b033674198473f8573ffd67, type: 3}
       propertyPath: m_Name
       value: FAE_Birch_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013451787930, guid: 06b059ea2b033674198473f8573ffd67, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000010432572490, guid: 06b059ea2b033674198473f8573ffd67, type: 3}
       propertyPath: m_RootOrder
@@ -1274,7 +1340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 907373745}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: "\u73AF\u5883"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1320,6 +1386,10 @@ PrefabInstance:
     - target: {fileID: 1000014138177740, guid: 989f3a135cf88a14a86f34a56a573c5e, type: 3}
       propertyPath: m_Name
       value: ElephantEar_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014138177740, guid: 989f3a135cf88a14a86f34a56a573c5e, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000010677517918, guid: 989f3a135cf88a14a86f34a56a573c5e, type: 3}
       propertyPath: m_RootOrder
@@ -1377,6 +1447,10 @@ PrefabInstance:
     - target: {fileID: 1000014138177740, guid: 989f3a135cf88a14a86f34a56a573c5e, type: 3}
       propertyPath: m_Name
       value: ElephantEar_B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014138177740, guid: 989f3a135cf88a14a86f34a56a573c5e, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000010677517918, guid: 989f3a135cf88a14a86f34a56a573c5e, type: 3}
       propertyPath: m_RootOrder
@@ -1514,6 +1588,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 494338, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_RootOrder
@@ -1665,7 +1743,7 @@ GameObject:
   - component: {fileID: 1355894140}
   m_Layer: 0
   m_Name: NPC
-  m_TagString: Player
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1696,7 +1774,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355894134}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 147.001, y: 0.22, z: -145.685}
+  m_LocalPosition: {x: 146.24, y: 0.22, z: -144.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 422723478}
@@ -1748,9 +1826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text2: {fileID: 1442005403}
   text4: {fileID: 1548283695}
-  mapimage: {fileID: 0}
   talk: {fileID: 0}
-  pi: {fileID: 0}
   NPC: 0
   door: 0
   cooker: 0
@@ -1772,7 +1848,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1442005404
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1805,7 +1881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1813,10 +1889,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1843,6 +1919,10 @@ PrefabInstance:
     - target: {fileID: 161886, guid: 60ea3e7fe46ac444d8f6d4cb37672286, type: 3}
       propertyPath: m_Name
       value: Fern
+      objectReference: {fileID: 0}
+    - target: {fileID: 161886, guid: 60ea3e7fe46ac444d8f6d4cb37672286, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 416292, guid: 60ea3e7fe46ac444d8f6d4cb37672286, type: 3}
       propertyPath: m_RootOrder
@@ -1888,6 +1968,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012573402582, guid: 60ea3e7fe46ac444d8f6d4cb37672286, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013809998118, guid: 60ea3e7fe46ac444d8f6d4cb37672286, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014178857366, guid: 60ea3e7fe46ac444d8f6d4cb37672286, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60ea3e7fe46ac444d8f6d4cb37672286, type: 3}
 --- !u!1 &1544848058
@@ -1900,7 +1992,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1544848060}
   - component: {fileID: 1544848059}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2168,7 +2260,7 @@ GameObject:
   - component: {fileID: 1730220885}
   - component: {fileID: 1730220884}
   - component: {fileID: 1730220883}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Plane (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3331,7 +3423,7 @@ GameObject:
   - component: {fileID: 1947084490}
   - component: {fileID: 1947084489}
   - component: {fileID: 1947084488}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Plane (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3423,6 +3515,10 @@ PrefabInstance:
     - target: {fileID: 1192641458597302, guid: c350023b68bece943928351ad0df5c3a, type: 3}
       propertyPath: m_Name
       value: CarboardBox_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1192641458597302, guid: c350023b68bece943928351ad0df5c3a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4333507836982010, guid: c350023b68bece943928351ad0df5c3a, type: 3}
       propertyPath: m_RootOrder

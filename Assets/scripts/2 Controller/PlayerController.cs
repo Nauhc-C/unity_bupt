@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
         dir = transform.forward * verticalMove + transform.right * horizontalMove;
         cc.Move(dir * Time.deltaTime);
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (isGround && Input.GetKeyDown(KeyCode.Space))
         {
             print("jump");
             velocity.y = jumpSpeed;
