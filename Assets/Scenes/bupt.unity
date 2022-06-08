@@ -618,7 +618,7 @@ Transform:
   - {fileID: 1292050918}
   - {fileID: 864244260}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &295484455
 CharacterController:
@@ -1025,6 +1025,75 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1001 &535848385
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 271115689853591262, guid: 3ac315adbca70884b9d2b588f658709e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 271115689853591262, guid: 3ac315adbca70884b9d2b588f658709e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 147.68797
+      objectReference: {fileID: 0}
+    - target: {fileID: 271115689853591262, guid: 3ac315adbca70884b9d2b588f658709e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0034554005
+      objectReference: {fileID: 0}
+    - target: {fileID: 271115689853591262, guid: 3ac315adbca70884b9d2b588f658709e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -141.59915
+      objectReference: {fileID: 0}
+    - target: {fileID: 271115689853591262, guid: 3ac315adbca70884b9d2b588f658709e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 271115689853591262, guid: 3ac315adbca70884b9d2b588f658709e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 271115689853591262, guid: 3ac315adbca70884b9d2b588f658709e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 271115689853591262, guid: 3ac315adbca70884b9d2b588f658709e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 271115689853591262, guid: 3ac315adbca70884b9d2b588f658709e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 271115689853591262, guid: 3ac315adbca70884b9d2b588f658709e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 271115689853591262, guid: 3ac315adbca70884b9d2b588f658709e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 614990818158199908, guid: 3ac315adbca70884b9d2b588f658709e,
+        type: 3}
+      propertyPath: m_Name
+      value: Aika Highschool Uniform
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ac315adbca70884b9d2b588f658709e, type: 3}
 --- !u!1001 &583554804
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1398,7 +1467,7 @@ Transform:
   - {fileID: 180335268}
   - {fileID: 1730220886}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &941041459
 PrefabInstance:
@@ -1859,7 +1928,7 @@ Transform:
   m_LocalScale: {x: 1, y: 0.16, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1292050917
 GameObject:
@@ -2012,7 +2081,7 @@ Transform:
   - {fileID: 422723478}
   - {fileID: 604079454}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!54 &1355894138
 Rigidbody:
@@ -2474,7 +2543,7 @@ Transform:
   m_LocalScale: {x: 1, y: 0.07, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &1635934381 stripped
 Transform:
