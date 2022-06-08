@@ -20,11 +20,17 @@ public class DialogSystem : MonoBehaviour
     [Header("头像")]
     public Sprite face01, face02;
 
+    public GameObject D_NPCTemp;
 
     //储存文字的列表
     List<string> textList = new List<string>();
     // Start is called before the first frame update
     private void Awake()
+    {
+        GetTextFromFile(textfile);
+    }
+
+    public void manualAwake()
     {
         GetTextFromFile(textfile);
     }
@@ -42,6 +48,11 @@ public class DialogSystem : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F)&&index == textList.Count)
         {
             gameObject.SetActive(false);
+            D_NPCTemp.GetComponent<NPC>().n++;
+            if(D_NPCTemp.GetComponent<NPC>().n >= D_NPCTemp.GetComponent<NPC>().textfile.Length)
+            {
+                D_NPCTemp.GetComponent<NPC>().n = D_NPCTemp.GetComponent<NPC>().textfile.Length-1;
+            }
             index = 0;
             return;
         }
@@ -85,7 +96,7 @@ public class DialogSystem : MonoBehaviour
                 break;
         }
         print("后面的执行了");
-        if(textList[index] == "新同学欸,那帮我搬完之后,我带你逛一逛学校吧")
+        if(textList[index].Trim().ToString() == "新同学欸,那帮我搬完之后,我带你逛一逛学校吧")
         {
             print("surprise");
         }
